@@ -1,0 +1,146 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: #d7dcde;
+}
+a{
+	color: red;
+}
+/*---------------------------------------------*/
+#mainDiv{
+	display: flex;
+	height: 100vh;
+}
+#div1{
+	width: 200px;
+}
+#home{
+	padding: 10px;
+}
+#home a{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	text-decoration: none;
+	color: black;
+	width: 150px;
+}
+#homeLogo{
+	width: 60px;
+	height: 60px;
+}
+#home a h2{
+	padding-left: 10px;
+}
+
+#para{
+	padding-left: 20px;
+}
+#para p{
+	font-size: 18px;
+}
+#para h3{
+	color: red;
+}
+
+/*---------------------------------------------*/
+.div{
+	height: 90%;
+	border: 2px solid black;
+	margin-top: 10px;
+}
+#div2{
+	width: 68%;
+	margin-right: 5px;
+	padding: 10px;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: space-between;
+}
+#h1-btn-div h1{
+	margin-bottom: 10px;
+}
+#btn-div{
+	width: 350px;
+	justify-content: space-between;
+	border: none;
+}
+#btn-div button{
+	width: 150px;
+	height: 40px;
+	font-size: 20px;
+
+}
+#back::before{
+	content: "⬅";
+}
+#next::after{
+	content: "➡";
+}
+#line{
+	border: 2px solid black;
+	width: 100%;
+
+}
+#css{
+	width: 100%;
+	height: 30px;
+	background-color: #495559;
+}
+#css h2{
+	color: white;
+	margin-left: 10px;
+}
+#cssimg{
+	display: flex;
+	justify-content: space-around;
+}
+#cssimg img{
+	height: 100px;
+	width: 200px;
+}
+#cssimg p{
+	padding-left: 30px;
+	font-size: 20px;
+}
+#cssimg a{
+	padding-left: 30px;
+}
+/*---------------------------------------------*/
+.div3{
+	border: 2px solid black;
+	width: 100%;
+	text-align: center;
+}
+#div3{
+	width: 20%;
+	padding: 10px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+#div3-1-1{
+	display: flex;
+	justify-content: space-around;
+}
+#div3-1-1 input{
+	width: 60%;
+	height: 30px;
+}
+#div3-1-1 button{
+	width: 20%;
+	height: 30px;
+}
+#div-a{
+
+	padding-top: 10px;
+}
+#btn25{
+	width: 85%;
+	height: 40px;
+}
+.div3 #css{
+	margin-bottom: 10px;
+}
